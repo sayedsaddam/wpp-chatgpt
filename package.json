@@ -5,13 +5,14 @@
   "main": "src/index.mjs",
   "type": "module",
   "scripts": {
-    "start": "node src/index.mjs"
+    "start": "PORT=12345 node src/index.mjs"
   },
   "keywords": [],
   "author": "Santosl2",
   "license": "APACHE-2.0",
   "dependencies": {
     "@open-wa/wa-automate": "^4.55.0",
+    "dotenv": "^16.0.3",
     "openai": "^3.1.0"
   }
 }
