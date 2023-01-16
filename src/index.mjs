@@ -17,7 +17,7 @@ create({
 function start(client) {
   client.onMessage(async (message) => {
     const { body } = message;
-
+    // await client.sendText(message.from, "You're a Gem, but you need to wait for a while.");
     const completion = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: body,
