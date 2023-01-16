@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/67132916/212448427-d70eceb9-b59b-49f9-
 
 ## Technologies
 
-- [OpenIA](https://beta.openai.com/)
+- [OpenAI](https://beta.openai.com/)
 - [wa-automate-nodejs](https://github.com/open-wa/wa-automate-nodejs)
 
 ## Localy run
